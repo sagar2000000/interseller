@@ -15,6 +15,9 @@ body {
     text-align: center;
     
 }
+.contact-container h2{
+    color: rgb(30, 124, 30);
+}
 
 .contact-info-box {
     background-color: #f4f4f4;
