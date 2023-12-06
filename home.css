@@ -17,24 +17,104 @@
     
 }
 .navbar {
-    background-color: #333;
-    color: #fff;
+    background-color:rgb(40, 36, 36);
+    color: white;
     text-align: center;
     padding: 1em 0;
 }
 
 .navbar a {
     text-decoration: none;
-    color: #fff;
+    color: white;
     margin: 0 1em;
     font-weight: bold;
 }
 
 .navbar a:hover {
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid white;
     color: rgba(0, 255, 47, 0.815);
 }
 
 #home{
     padding: 2rem;
+}
+.slideshow {
+    max-width: 100%;
+    overflow: hidden;
+    display: fixed;
+}
+
+.slideshow img {
+    width: 100%;
+    height: auto;
+    display: none;
+    border-radius: 10px;
+}
+#home h2{
+    padding-top: 15px;
+    color: rgb(49, 117, 49);
+    
+}
+#products h2{
+    color: rgb(49, 117, 49);
+    padding-left: 40px;
+}
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product {
+    flex: 0 0 30%;
+    margin: 1em;
+    padding: 1em;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.product:hover {
+    transform: scale(1.09);
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1em;
+}
+#categories{
+    margin-top: 30px;
+}
+#categories h2{
+    color: rgb(49, 117, 49);
+    padding-left: 40px;
+}
+#categories p{
+   
+    padding-left: 40px;
+
+
+}
+#seasonal{
+    margin-top: 30px;
+}
+#seasonal h2{
+    color: rgb(49, 117, 49);
+    padding-left: 40px;
+}
+ #seasonal p{
+   
+    padding-left: 40px;
+
+
+}
+footer {
+    margin-top: 23px;
+    background-color:rgb(40, 36, 36);
+    color: white;
+    text-align: center;
+    padding: 1em 0;
 }

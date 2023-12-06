@@ -1,6 +1,7 @@
 
        
         let currentSlide = 0;
+        
         const slides = document.querySelectorAll('.slideshow img');
 
         function showSlide(index) {
@@ -13,5 +14,5 @@
             currentSlide = (currentSlide + 1) % slides.length;
             showSlide(currentSlide);
         }
-
-        setInterval(nextSlide, 3000);
+        
+        setInterval(nextSlide, 2000);
