@@ -1,0 +1,40 @@
+
+*{
+    margin: 0px;
+}
+.header{
+    
+    text-align: center;
+    background-color: rgb(73, 190, 73);
+    padding-top: 0px;
+    margin: 0px;
+    height: 60px;
+
+}
+.name{
+    color: aliceblue;
+    padding-top: 6px;
+    
+}
+.navbar {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 1em;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    border-bottom: 2px solid #fff;
+    color: rgba(0, 255, 47, 0.815);
+}
+
+#home{
+    padding: 2rem;
+}
