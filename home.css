@@ -38,6 +38,10 @@
 #home{
     padding: 2rem;
 }
+#home p,#categories p,#seasonal p{
+    padding: 1rem;
+}
+
 .slideshow {
     max-width: 100%;
     overflow: hidden;
@@ -111,6 +115,7 @@
 
 
 }
+
 footer {
     margin-top: 23px;
     background-color:rgb(40, 36, 36);
