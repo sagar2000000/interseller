@@ -11,7 +11,13 @@ section {
 h2 {
     color: #333;
 }
-
+.cart{
+    display: inline;
+    width: 7%;
+    justify-items: center;
+   
+    
+}
 .product-container {
     display: flex;
     justify-content: space-around;
@@ -69,3 +75,4 @@ button {
 button:hover {
     background-color: #45a049;
 }
+
