@@ -117,9 +117,47 @@
 }
 
 footer {
-    margin-top: 23px;
     background-color:rgb(40, 36, 36);
-    color: white;
-    text-align: center;
-    padding: 1em 0;
+    color: #fff;
+    padding: 20px;
+    text-align: left; /* Align text to the left */
+}
+
+.footer-section {
+    margin-bottom: 20px;
+}
+
+.footer-section h3 {
+    color: #f0ad4e;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    font-size: 20px;
+}
+
+.copyright {
+    margin-top: 20px;
+}
+.social-icons img{
+    max-width: 4%;
+    padding: 3px;
+    border-radius: 120px;
+}
+  #i1:hover {
+    background-color: aliceblue;
+}
+ #i2:hover {
+    background-color: aliceblue;
+}
+  #i3:hover{
+    background-color: aliceblue;
 }

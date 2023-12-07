@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping Order Form</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-image: url(slide2.jpeg);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    background-image: url(tomato.png);
+   
+    background-color: rgb(169, 182, 169);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(172, 44, 44, 0.1);
+    padding: 20px;
+    width: 300px;
+}
+
+label {
+    display: block;
+    color: black;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: rgb(85, 85, 222);
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+@media (max-width: 400px) {
+.login-container {
+width: 90%;
+}
+
+}
+    </style>
+   
+   
+</head>
+<body>
+    <form action="#" method="post" id="orderForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" min="1" required>
+
+        <label for="price">Price:</label>
+        <input type="text" id="price" name="price" readonly>
+
+        <input type="submit" value="Submit">
+    </form> 
+    
+    <script src="purchase.js"></script>
+</body>
+</html>
