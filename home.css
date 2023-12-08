@@ -21,6 +21,7 @@
     color: white;
     text-align: center;
     padding: 1em 0;
+   
 }
 
 .navbar a {
@@ -28,11 +29,15 @@
     color: white;
     margin: 0 1em;
     font-weight: bold;
+    font-size: large;
 }
 
 .navbar a:hover {
     border-bottom: 2px solid white;
     color: rgba(0, 255, 47, 0.815);
+}
+.cart-logo{
+    font-size: xx-large;
 }
 
 #home{

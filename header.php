@@ -4,26 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="home.css">
   </head>
   <body>
     <header class="header">
       <h1 class="name">TarkariGhar</h1>
     </header>
     <nav class="navbar">
-      <a href="home.html">Home</a>
+      <a href="header.php">Home</a>
       <a href="aboutus.html">About Us</a>
-      <a href="product.html">Products</a>
+      <a href="view_products.php">Products</a>
       <a href="services.html">Services</a>
       <a href="contact.html">Contact</a>
-    </nav>
+     
+    
+      
+
+       </nav>
+       
+    <div id="menu-btn" class="fas fa-bars"></div>
     <section id="home">
       <div class="slideshow">
-        <img src="bg.jpg" alt="image1" />
-        <img src="slide2.jpeg" alt="image2" />
-        <img src="slide3.jpeg" alt="image3" />
+        <img src="assets/slide1.webp" alt="image1" />
+        <img src="assets/slide2.jpeg" alt="image2" />
+        <img src="assets/slide3.jpeg" alt="image3" />
       </div>
-
       <h2>Welcome to TarkariGhar</h2>
 
       <p>
@@ -38,7 +43,7 @@
 
       <div class="product-container">
         <div class="product">
-          <img src="potato.png" alt="mustang aalu" />
+          <img src="assets/potato.png" alt="mustang aalu" />
           <h3>Mustang Aloo</h3>
           <p>
             Introducing Mustang Aloo, grown in the pristine Himalayan region.
@@ -47,7 +52,7 @@
         </div>
 
         <div class="product">
-          <img src="gundruk.jpeg" alt="gundruk" />
+          <img src="assets/gundruk.jpeg" alt="gundruk" />
           <h3>Gundruk</h3>
           <p>Elevate your dishes with the authentic taste of Gundruk</p>
           <p>रु800 per kg</p>
@@ -73,26 +78,26 @@
       </p>
     </section>
     <footer>
-      <div class="footer-section">
-          <h3>Contact Us</h3>
-          <p>Email: tarkarighar@gmail.com</p>
-          <p>Phone: +977 9841091926</p>
-      </div>
-  
-      <div class="footer-section">
-          <h3>Follow Us</h3>
-          <ul class="social-icons">
-            
-              <a  href="facebook"><img id="i1"src="fcbook.png"></a>
-              <a href="twittter"><img  id="i2"src="twitter.png"></a>
-              <a href="instagram"><img id="i3"src="insta.jpg"></a>
-          </ul>
-      </div>
-  
-      <div class="copyright">
-          <p>&copy; 2023 Your Company. All rights reserved.</p>
-      </div>
-  </footer>
+        <div class="footer-section">
+            <h3>Contact Us</h3>
+            <p>Email: tarkarighar@gmail.com</p>
+            <p>Phone: +977 9841091926</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Follow Us</h3>
+            <ul class="social-icons">
+
+                <a href="facebook"><img id="i1" src="assets/fcbook.png"></a>
+                <a href="twitter"><img id="i2" src="  assets/twitter.png"></a>
+                <a href="instagram"><img id="i3" src="assets/insta.jpg"></a>
+            </ul>
+        </div>
+
+        <div class="copyright">
+            <p>&copy; 2023 Your Company. All rights reserved.</p>
+        </div>
+    </footer>
     <script src="index.js"></script>
   </body>
 </html>
